@@ -1,0 +1,106 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+
+img {
+   width: 100%;
+}
+
+.container {
+   max-width: 810px;
+   margin: auto;
+}
+
+
+/*DROPDOWN STYLING*/
+      .dropbtn {
+        background-color: #20427f;
+        color: white;
+        padding: 12px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        font-family: 'Montserrat', sans-serif;;
+        margin-bottom: 10px;
+      }
+
+      .dropbtn:hover, .dropbtn:focus {
+        background-color: #436cb5;
+      }
+
+      #myInput {
+         width: 100%;
+         font-size: 16px;
+         padding: 14px 20px 12px 20px;
+         border: none;
+         border-bottom: 1px solid #ddd;
+      }
+
+      #myInput:focus {outline: 3px solid #ddd;}
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f6f6f6;
+        min-width: 230px;
+        overflow: auto;
+        border: 1px solid #ddd;
+        z-index: 1;
+
+      }
+
+      .dropdown-content p {
+        color: black;
+        padding: 10px 14px;
+        text-decoration: none;
+        display: block;
+        margin: 5px 0px;
+        /*height: 50vh;*/
+      }
+
+      .countydrop {
+         height: 30vh;
+         overflow: scroll;
+         font-family: 'Montserrat', sans-serif;;
+      }
+
+      .department {
+         cursor: pointer;
+      }
+
+      .dropdown p:hover {background-color: #ddd;}
+
+      .show {display: block;}
+
+
+/*END DROPDOWN STYLING*/
+
+.chart {
+   width: 100%;
+}
+
+.source{
+   font-size: 10px;
+   font-style: italic;
+}
+
+
+
+
+
+
