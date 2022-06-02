@@ -11,10 +11,28 @@
 		http://colorpicker.com
 
 */
+@font-face {
+  font-family: GothamBold;
+  src: url(../gothambold/Gotham-Bold.ttf);
+}
+
+@font-face {
+  font-family: GothamBook;
+  src: url(../gothambook/Gotham-Book.otf);
+}
 
 img {
    width: 100%;
 }
+
+h1 {
+   font-family: GothamBold;
+}
+
+h3 {
+   font-family: GothamBook;
+}
+
 
 .container {
    max-width: 810px;
@@ -24,18 +42,18 @@ img {
 
 /*DROPDOWN STYLING*/
       .dropbtn {
-        background-color: #20427f;
+        background-color: #51585f;
         color: white;
         padding: 12px;
         font-size: 16px;
         border: none;
         cursor: pointer;
-        font-family: 'Montserrat', sans-serif;;
+        font-family: GothamBook;
         margin-bottom: 10px;
       }
 
       .dropbtn:hover, .dropbtn:focus {
-        background-color: #436cb5;
+        background-color: #2d343a;
       }
 
       #myInput {
@@ -44,6 +62,7 @@ img {
          padding: 14px 20px 12px 20px;
          border: none;
          border-bottom: 1px solid #ddd;
+         font-family: GothamBook;
       }
 
       #myInput:focus {outline: 3px solid #ddd;}
@@ -61,6 +80,7 @@ img {
         overflow: auto;
         border: 1px solid #ddd;
         z-index: 1;
+        font-family: GothamBook;
 
       }
 
@@ -76,7 +96,9 @@ img {
       .countydrop {
          height: 30vh;
          overflow: scroll;
-         font-family: 'Montserrat', sans-serif;;
+         font-family: 'Montserrat', sans-serif;
+         font-family: GothamBook;
+
       }
 
       .department {
@@ -97,6 +119,7 @@ img {
 .source{
    font-size: 10px;
    font-style: italic;
+   font-family: GothamBook;
 }
 
 
