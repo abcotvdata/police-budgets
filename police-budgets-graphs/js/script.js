@@ -20,8 +20,9 @@ $(document).ready(function(){ // begin document.ready block
 		var dept_numb = $(this).attr("numb")
 		console.log(dept_numb)
 
-
-		$('.chart img').attr("src", 'plots/' + departments[dept_numb].filename + '_plot.png')
+		$('.dept-title').html(departments[dept_numb].name)
+		$('.dollar img').attr("src", 'plots/' + departments[dept_numb].filename + '_plot.png')
+		$('.pct img').attr("src", 'pct-plots/' + departments[dept_numb].filename + '_plot.png')
 		$('#myDropdown').removeClass('show')
 	});
 

@@ -35,7 +35,7 @@ h3 {
 
 
 .container {
-   max-width: 810px;
+   max-width: 900px;
    margin: auto;
 }
 
@@ -112,8 +112,28 @@ h3 {
 
 /*END DROPDOWN STYLING*/
 
-.chart {
+.dept-title {
+  width: 100%;
+  text-align: center;
+  font-family: GothamBold;
+  font-size: 1.7em;
+}
+
+.charts {
    width: 100%;
+   display: flex;
+   font-family: GothamBold;
+   font-size: 0.8em;
+}
+
+.dollar {
+  width: 50%;
+  text-align: center;
+}
+
+.pct {
+  width: 50%;
+  text-align: center;
 }
 
 .source{
@@ -122,6 +142,56 @@ h3 {
    font-family: GothamBook;
 }
 
+
+
+@media only screen and (max-width: 811px) {
+
+  .charts {
+     display: block;
+     max-width: 550px;
+     margin: auto;
+     padding-right: 20px;
+  }
+
+  .dollar {
+    width: 100%;
+  }
+
+  .pct {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+  h1 {
+    font-size: 1.6em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  .dropbtn {
+    font-size: 13px;
+  }
+
+  .dept-title {
+    font-size: 1.3em;
+  }
+
+  #myInput {
+    font-size: 13px;
+  }
+
+  .department {
+    font-size: 13px;
+  }
+
+
+
+}
 
 
 
